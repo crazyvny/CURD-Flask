@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+    <body style="text-align: center">
+        <h1>SignUp Here</h1>
+        <form action="{{ url_for('add')}}" method="POST">
+            <input type="text" name="name" id="name" placeholder="Name" required/>
+            <br>
+            <input type="text" name="email" id="email" placeholder="Email ID" required/>
+            <br>
+            <input type="password" name="password" id="password" placeholder="Password" required/>
+            <br>
+            <!-- <input type="password" name="password" id="password" placeholder="Password" required/> -->
+            <br>
+            <input type="text" name="mobileno" id="mobileno" placeholder="Mobile Number" required/>
+            <br>
+            <input type="submit" class="button" value="Sign"/>
+        </form>
+    </body>
+</html>
