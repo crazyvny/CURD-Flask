@@ -2,7 +2,7 @@
 ### CRUD App using Flask-SQLAlchemy
 This is a CURD application that based on Flask, a python based framework and SQLAlchemy
 which is a python ORM for sqlite3 database.
- In this application, we can singup or login using existing account i.e user@gmail.com:12345
+ In this application, we can singup or login using existing account i.e user@gmail.com:123456
 
  You can modify entries and delete existing entries by Edit and Delete links.
 
